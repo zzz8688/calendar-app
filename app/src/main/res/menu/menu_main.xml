@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_export_all"
+        android:title="备份所有日程 (本地)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import_local"
+        android:title="从本地备份恢复"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import_url"
+        android:title="从 URL 导入日程"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_all"
+        android:title="清空所有日程"
+        app:showAsAction="never" />
+</menu>
